@@ -1,0 +1,25 @@
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .task-field{
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #878ca199;
+    border-radius: 10px;
+  }
+  
+  #input-field{
+    width: 13rem;
+    height: 2.2rem;
+    outline: none;
+    font-size: 22px;
+    padding-left: 3px;
+  }
+  
+  .icon{
+    margin-right: 1px;
+  }

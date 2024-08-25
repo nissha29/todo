@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
 .absolute {
   position: absolute;
 }
@@ -582,8 +590,24 @@ video {
   top: 8.2rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[13rem\] {
@@ -620,6 +644,18 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize {
+  resize: both;
 }
 
 .flex-col {
@@ -660,6 +696,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-\[1\.5px\] {
@@ -740,6 +780,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .line-through {
   text-decoration-line: line-through;
 }
@@ -760,28 +804,6 @@ video {
   outline-offset: 2px;
 }
 
-.scrollbar-hidden::-webkit-scrollbar {
-  display: none;
-}
-
-.task-field{
-  width: 20rem;
-  height: 2.5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid #878ca199;
-  border-radius: 10px;
-}
-
-#input-field{
-  width: 13rem;
-  height: 2.2rem;
-  outline: none;
-  font-size: 22px;
-  padding-left: 3px;
-}
-
-.icon{
-  margin-right: 1px;
+.outline {
+  outline-style: solid;
 }
