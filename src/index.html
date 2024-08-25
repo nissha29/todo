@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-app</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-[#dde3f9ab]">
+    <div class="flex justify-center items-center w-screen h-screen flex-wrap px-5">
+        <div class="flex justify-center items-center gap-16 flex-col">
+            <div class="flex flex-col justify-center items-center gap-3 flex-wrap">
+                <div class="text-slate-950 font-bold text-[40px] text-center">
+                    <div>Manage Tasks</div>
+                    <div>Be Clutter Free</div>
+                </div>
+                <div class="addTask-div flex justify-center items-center w-[25rem] h-[13rem] bg-white rounded relative shadow-[#10121a] shadow-sm flex-wrap">
+                    <div class="absolute top-3 text-[35px] font-semibold text-slate-950">Todo List</div>
+                    <input type="text" class="input-task absolute top-[5rem] w-[20rem] h-[2.5rem] rounded border-[#000] border-[1.5px] outline-none p-3 text-[19px] font-[450]" placeholder="Add Your Tasks">
+                    <button class="add-task-btn absolute top-[8.2rem] w-[20rem] h-[2.5rem] rounded bg-slate-950 text-white text-[21px] font-[450]">Add Task</button>
+                </div> 
+            </div>
+            <div class="addTask-div flex justify-center items-center w-[25rem] h-[23rem] bg-white rounded relative shadow-[#10121a] shadow-sm flex-wrap px-5">
+                <div class="absolute top-5 text-slate-950 text-[30px] font-semibold w-[20rem]">Your Tasks Goes Here</div>
+                <div class="absolute top-20 tasks w-[23rem] h-[16.5rem] overflow-y-scroll scroll-smooth scrollbar-hidden flex flex-col gap-3"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/d561e187b9.js" crossorigin="anonymous"></script>
+</body>
+</html>
